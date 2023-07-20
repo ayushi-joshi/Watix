@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.main{
+    background-color:rgb(238, 238, 241);
+    height: 100vh;
+}
+
+.nav{
+    height: 10vh;
+    background-color: rgb(238, 238, 241);
+  
+    width: 96%;
+display: flex;
+font-family: 'Inter', sans-serif;
+align-items: center;
+justify-content: space-between;
+padding: 10px;
+
+}
+.nav span{
+    display: flex;
+    list-style: none;
+    width: 50%;
+       align-items: center;
+    justify-content: space-between;
+   
+}
+.btn{
+    width: 180px;
+    height: 40px;
+    border: none;
+border-radius: 20px;
+color: white;
+background-color: black;
+}
+.con{
+ height: 90vh;
+
+ display: flex; 
+ flex-direction: column;
+}
+.mid-sec{
+    width: 100%;
+    height: 65%;
+    display: flex;
+   
+}
+.sec1{
+background-color:rgb(238, 238, 241); 
+width: 60%;
+height: 100%;
+display: flex;
+flex-direction: column;
+
+font-family: 'Agdasima', sans-serif;
+}
+.sec1 h1{
+    font-size: 80px;
+    letter-spacing: 15px;
+}
+.img-sec{
+    display: flex;
+    align-items: center;
+}
+.img-sec img{
+    width: 200px;
+    
+}
+.icon-sec{
+    display: flex;
+    align-items: center;
+}
+.icon-sec i{
+    font-size: 80px;
+}
+.email-sec{
+    display: flex;
+    border: 1px solid black;
+    width: 60%;
+    height: 12%;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    
+}
+.email-sec button{
+    width: 85px;
+    border: none;
+    height: 35px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+.sec1-content{
+   
+    position: relative;
+    left: 2%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 98%;
+    border-top: 1px solid gray;
+}
+.sec2{
+    width: 37%;
+height: 65%;
+}
+
+.sec2 img{
+    height: 384px;
+    width: 510px;
+    border: 3px solid gray;
+}
+.bottom-sec{
+    height: 35%;
+    padding-left:10px ;
+   display: flex;
+  
+   font-family: 'Inter', sans-serif;
+}
+.b1-sec{
+    width: 60%;
+  display: flex;
+
+    border: 2px solid gray;
+    height: 85%;
+}
+.b2-sec{
+    width: 37%;
+background-color: rgb(238, 238, 241);
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 85%;
+padding: 10px;
+}
+.team-sec{
+    height: 100%;
+    width: 50%;
+    background-color:black ;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+}
+.team-sec span{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+}
+.team-sec span h4{
+    font-weight: 300;
+}
+.team-sec h1{
+    font-size: 50px;
+    color: white;
+   
+}
+.team-sec sup{
+    color: rgb(66, 180, 142); ;
+}
+.track-sec{
+    height: 100%;
+    width: 50%;
+    background-color:rgb(66, 180, 142); 
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+}
+.track-sec span{
+    display: flex;
+    justify-content: space-between;
+}
+.track-sec span button{
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    width: 100px;
+    background-color: transparent;
+    color: white;
+}
+.t1{
+    display: flex;
+    align-items: center;
+}
+.t1 i{
+    font-size: 30px;
+    color: white;
+}
+.t1 h4 {
+color: white;
+font-size: 20px;
+font-weight: 400;
+}
+.b2-sec span{
+    display: flex;
+    justify-content: space-between;
+}
+.b2-sec span button{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 12px;
+    border: 1px solid gray;
+}
+.b2-sec span button i{
+    color: rgb(231, 153, 7);
+}
+.b2-sec span p{
+    font-size: 13px;
+
+}
+@media(max-width:768px){
+    .nav span li{
+        display: none;
+    }
+    .nav{
+        width: 100%;
+    }
+    .nav button{
+        height: 25px;
+    }
+    .con{
+        height: 150vh;
+        width: 100%;
+    }
+    .sec1,.sec2{
+        width: 100%;
+    }
+    
+    .sec1-content h1{
+        font-size: 20px;
+    }
+    .icon-sec i{
+        font-size: 20px;
+    }
+    .sec1-content img{
+        width: 20%;
+    }
+    .email-sec{
+        height: 20%;
+        width: 100%;
+        font-size: 10px;
+    }
+    .email-sec button{
+        width: 80px;
+        height: 20px;
+    }
+.mid-sec{
+    display: flex;
+    flex-direction: column;
+}
+.sec2 img {
+   height: 100%;
+   width: 100%;
+}
+.b2-sec{
+    display: none;
+}
+.b1-sec{
+    width: 100%;
+    
+    height: 100%;
+}
+.bottom-sec{
+    padding: 0px;
+    }
+}
